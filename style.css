@@ -1,0 +1,271 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+    color: #3530e0;
+}
+
+.open-sans-norm {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #F5F8FF;
+}
+
+/* header style */
+header {
+    background-image: url(../Images/Hero-bg.png);
+    /* padding: 300px 280px; */
+
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.logo {
+    font-size: 42px;
+}
+
+/* Banner style */
+.banner-title {
+    color: #252432;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.banner {
+    text-align: center;
+    align-items: center;
+    padding: 150px 250px;
+}
+
+
+/* shared style */
+.primary-btn {
+    background-color: #3530e0;
+    font-weight: 16;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    border: 1px solid #3530e0;
+}
+
+.primary-btn:hover {
+    background-color: #f87314;
+    font-weight: 16;
+    color: #ffffff;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    border: 1px solid #f87314;
+    transition: 0.5s;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.regular {
+    font-weight: 100;
+    /* font-size: 24px; */
+    /* width: 40%; */
+}
+
+.primary {
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-class {
+    border-radius: 50px;
+    /* align-items: center; */
+}
+
+.section {
+    padding: 62px;
+}
+
+.img-wc {
+    border-radius: 50px;
+    height: 250px;
+    width: 300px;
+}
+
+.productive {
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 40px 0;
+
+}
+
+.user-say {
+
+    padding: 40px;
+    text-align: left;
+}
+
+.user-say h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping in smaller screens */
+    justify-content: left;
+    gap: 20px;
+    /* Adds spacing between boxes */
+    text-align: left;
+}
+
+.review {
+    flex: 1 1 300px;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.stars {
+    color: gold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.review h3 {
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.review p {
+    font-style: italic;
+    text-align: left;
+}
+
+
+.Users-section {
+    font-weight: bolder;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.active-user {
+    font-size: 55px;
+}
+
+.users-sub {
+    font-size: 20px;
+    color: #888787;
+}
+
+/* ready section */
+
+.ready-section {
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ready {
+    text-align: center;
+
+    >h1 {
+        font-size: 42px;
+    }
+
+    >p {
+        font-size: 20px;
+        color: #777777;
+        padding-bottom: 5px;
+    }
+}
+
+.img-ready {
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+/* touch style */
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.form-title {
+    font-size: 70px;
+}
+
+input,
+textarea {
+    background-color: white;
+    border: none;
+    width: 100%;
+    border: 1px solid rgb(236, 232, 232);
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+label {
+    color: black;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/* footer style */
+footer {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 50px 50px;
+}
+
+footer h1,
+.Users-section h1 {
+    color: #3530e0;
+}
+
+footer li {
+    list-style: none;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: space-around;
+    display: inline;
+}
